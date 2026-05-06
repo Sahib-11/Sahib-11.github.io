@@ -1,7 +1,286 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sahib</title>
+        <!-- Bootstrap CDN -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+         <!-- Bootstrap Icons CDN -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+        <!-- aos CDN -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- style.css -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
 
-<html>
     <body>
-        <h1>Welcome</h1>
+        <br>
+        <!-- Nav bar -->
+        <nav class="navbar bg-body-tertiary sticky-top">
+            <div class="container">
+                <a class="navbar-brand">Sahibjeet Singh</a>
+                <div class="d-flex gap-2">
+
+                    <a href="#home" class="nav-btn">Home</a>
+                    <a href="#about" class="nav-btn">About</a>
+                    <a href="#projects" class="nav-btn">Projects</a>
+                    <a href="#contact" class="nav-btn">Contact</a>
+
+                    <button id="themeToggle" class="btn border-0">
+                        🌙
+                    </button>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Sections -->
+
+        <!-- Home -->
+        <section id="home" class="min-vh-100 d-flex align-items-center px-3">
+        <div class="container">
+
+            <div class="row align-items-center g-5">
+
+            <!-- Left Content -->
+            <div class="col-lg-7">
+                <div data-aos="fade-right" data-aos-duration="1200">
+
+                <p class="hero-label">SOFTWARE DEVELOPER</p>
+
+                <h1 class="hero-title">
+                    Hi, I’m <span>Sahibjeet Singh</span>
+                </h1>
+
+                <p class="hero-subtitle">
+                    I build responsive websites, full-stack applications, APIs, and practical software solutions.
+                </p>
+
+                <p class="hero-description">
+                    Degree coursework completed, with final internship remaining. Open to junior developer,
+                    internship, and graduate software development opportunities.
+                </p>
+
+                <div class="d-flex gap-3 flex-wrap mt-4">
+                    <a href="#projects" class="btn btn-primary px-4">
+                    View Projects
+                    </a>
+
+                    <a href="assets/cv/cv.pdf" class="btn btn-outline-secondary px-4" download>
+                    Download CV
+                    </a>
+                </div>
+
+                <div class="d-flex gap-3 mt-4">
+                    <a href="https://github.com/Sahib-11"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="icon-btn github">
+                    <i class="bi bi-github"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/sahibjeet-singh-13a598354"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="icon-btn linkedin">
+                    <i class="bi bi-linkedin"></i>
+                    </a>
+                </div>
+
+                </div>
+            </div>
+
+            <!-- Right Content -->
+            <div class="col-lg-5">
+                <div data-aos="fade-left" data-aos-duration="1200">
+                <div class="hero-card">
+                    <div class="hero-card-top">
+                        <span class="hero-dot"></span>
+                        <span class="hero-dot"></span>
+                        <span class="hero-dot"></span>
+                        </div>
+
+                        <div class="hero-card-body">
+                        <p class="mb-2 text-secondary">Portfolio Focus</p>
+
+                        <h3 class="mb-4">
+                            Frontend • Backend • APIs • Databases • Mobile
+                        </h3>
+
+                        <div class="hero-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>Bootstrap</span>
+                            <span>C#</span>
+                            <span>ASP.NET Core</span>
+                            <span>SQL</span>
+                            <span>APIs</span>
+                            <span>Git</span>
+                            <span>Swift</span>
+                            <span>Full-Stack</span>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+
+            </div>
+
+        </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="min-vh-100 d-flex align-items-center px-3 bg-body-secondary">
+        <div class="container">
+
+            <div class="about-panel" data-aos="fade-up" data-aos-duration="1200">
+
+            <p class="about-label">ABOUT</p>
+
+            <h1 class="about-heading">
+                Building practical software solutions across web, mobile, backend, and data.
+            </h1>
+
+            <div class="row g-4 mt-4">
+                <div class="col-lg-7">
+                <p class="about-text">
+                    I am a software developer currently completing my degree, with all coursework completed
+                    and my final internship remaining before graduation. Through academic, personal, and
+                    client-based projects, I have developed experience designing and building complete software
+                    solutions.
+                </p>
+
+                <p class="about-text mb-0">
+                    I enjoy working across the development lifecycle — from creating responsive interfaces
+                    to implementing APIs, managing data, debugging issues, and delivering clean, maintainable
+                    applications.
+                </p>
+                </div>
+
+                <div class="col-lg-5">
+                <div class="about-side">
+                    <p class="mb-2">
+                    <i class="bi bi-mortarboard me-2"></i>
+                    Degree coursework completed
+                    </p>
+                    <p class="mb-2">
+                    <i class="bi bi-briefcase me-2"></i>
+                    Final internship remaining
+                    </p>
+                    <p class="mb-2">
+                    <i class="bi bi-code-slash me-2"></i>
+                    Open to junior developer roles
+                    </p>
+                </div>
+                </div>
+            </div>
+
+            <div class="about-line mt-4">
+                Frontend • Backend • APIs • Databases • Mobile • Full-Stack Development
+            </div>
+
+            </div>
+
+        </div>
+        </section>
+        
+        <!-- Projects -->
+        <section id="projects" class="min-vh-100 d-flex align-items-center px-3">
+            <div class="container">
+                <br>
+                <div class="d-flex justify-content-between align-items-center flex-wrap gap-3 mb-4">
+                    <div>
+                        <h1 class="section-title mb-1">Project Highlights</h1>
+                        <p class="section-subtitle mb-0">A selection of my work and builds</p>
+                    </div>
+
+                    <a href="https://github.com/Sahib-11?tab=repositories"
+                        class="btn btn-primary px-4"
+                        target="_blank">
+                        View All Projects →
+                    </a>
+
+                </div>
+
+                <br>
+                <div class="row g-4" id="projectsContainer"></div>
+                <br>
+            </div>
+        </section>
+        
+        <!-- Contact -->
+        <section id="contact" class="min-vh-100 d-flex align-items-center px-3 bg-body-secondary">
+            <div class="container">
+
+                <div class="text-center mb-5">
+                <h1 class="section-title">Let’s Connect</h1>
+                <p class="section-subtitle">
+                    Open to junior developer roles and internships.
+                </p>
+                </div>
+
+                <div class="row justify-content-center">
+                <div class="col-lg-8">
+
+                    <div class="contact-card text-center">
+
+                    <h3 class="mb-3">Get in Touch</h3>
+
+                    <p class="text-secondary mb-4">
+                        Feel free to reach out if you want to discuss a project, opportunity, or collaboration.
+                    </p>
+
+                    <div class="d-flex justify-content-center gap-3 flex-wrap mb-4">
+
+                        <a href="mailto:sahibjeet004@gmail.com" class="btn btn-primary px-4">
+                        <i class="bi bi-envelope me-2"></i>Email Me
+                        </a>
+
+                        <a href="https://github.com/Sahib-11"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-outline-secondary px-4">
+                        <i class="bi bi-github me-2"></i>GitHub
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/sahibjeet-singh-13a598354"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-outline-secondary px-4">
+                        <i class="bi bi-linkedin me-2"></i>LinkedIn
+                        </a>
+
+                    </div>
+
+                    <div class="contact-info">
+                        <p class="mb-1">
+                        <i class="bi bi-geo-alt me-2"></i>Melbourne, Australia
+                        </p>
+                        <p class="mb-0">
+                        <i class="bi bi-code-slash me-2"></i>Software Developer Portfolio
+                        </p>
+                    </div>
+
+                    </div>
+
+                </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Bootstrap CDN -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <!-- aos CDN -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>AOS.init();</script>
+        <!-- Theme Toggle -->
+        <script src="scripts/themeToggle.js"></script>
+        <!-- Projecs/Script-->
+        <script src="scripts/script.js"></script>
     </body>
+
 </html>

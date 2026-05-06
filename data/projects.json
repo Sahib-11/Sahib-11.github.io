@@ -1,0 +1,141 @@
+[
+  {
+    "title": "Midian Gaming Website",
+    "image": "assets/projects/midianGaming/main.png",
+    "description": "Responsive website made for real client with timetable, carousel, and social embeds. Hosted on Github Pages",
+    "tech": ["HTML |", " CSS |", " Bootstrap |", " JavaScript"],
+    "liveLink": "https://www.midiangaming.com.au",
+    "githubLink": "https://github.com/MidianGamingAU/MidianGaming"
+  },
+  {
+    "title": "StoreAdmin (Full Stack Admin Dashboard)",
+    "images": [
+      "assets/projects/storeAdmin/customer.png",
+      "assets/projects/storeAdmin/products.png",
+      "assets/projects/storeAdmin/sale1.png",
+      "assets/projects/storeAdmin/sale2.png",
+      "assets/projects/storeAdmin/store.png"
+    ],
+    "description": [
+      "Developed a full-stack admin dashboard for managing customers, products, stores, and sales with complete CRUD functionality.",
+      "Built a RESTful API using ASP.NET Core Web API with Entity Framework Core and SQLite, implementing relational data models and validation.",
+      "Designed a responsive React frontend with Redux Toolkit for state management and dynamic data handling.",
+      "Implemented data relationships, form validation, modal-based create/update flows, and real-time UI updates."
+    ],
+    "tech": [
+      "C# |",
+      " ASP.NET Core Web API |",
+      " Entity Framework Core |",
+      " SQLite |",
+      " React |",
+      " Redux Toolkit |",
+      " Bootstrap |",
+      " JavaScript"
+    ],
+    "githubLink": "https://github.com/Sahib-11/MVP_Studio_MVC_Application"
+  },
+  {
+    "title": "CrimeLocator",
+    "images": [
+      "assets/projects/crimeLocator/login.png",
+      "assets/projects/crimeLocator/signUp.png",
+      "assets/projects/crimeLocator/main.png",
+      "assets/projects/crimeLocator/incidents.png",
+      "assets/projects/crimeLocator/watchZone.png",
+      "assets/projects/crimeLocator/suburbs.png",
+      "assets/projects/crimeLocator/recents.png",
+      "assets/projects/crimeLocator/settings.png",
+      "assets/projects/crimeLocator/settings-preferences.png",
+      "assets/projects/crimeLocator/widget.png"
+    ],    
+    "description": [
+      "This project aimed to empower users with real-time information about crime activities",
+      "in their respective neighbourhoods. Built with a vision to make communities safer and more informed."
+    ],
+    "tech": ["IOS |", " Widget |", " Mobile |", " Swift |", " API"],
+    "githubLink": "https://github.com/Sahib-11/CrimeLocator_IOS"
+  },
+  {
+    "title": "Soil",
+    "images": [
+      "assets/projects/soil/main1.png",
+      "assets/projects/soil/main2.png",
+      "assets/projects/soil/cart1.png",
+      "assets/projects/soil/cart2.png",
+      "assets/projects/soil/checkout.png",
+      "assets/projects/soil/adminMetrics.png"
+    ],
+    "description": [
+      "This application is designed to provide a seamless and efficient user experience",
+      "for managing grocery items, user interactions, and purchase processes. ", 
+      "The application utilizes a React frontend, with a backend powered by ",
+      "Express, Sequelize, Node.js, and MySQL hosted on the cloud. ", 
+      "The application also features Admin site backend powered by apollo-server-express and React for frontend"
+    ],
+    "tech": [
+      "React |",
+      " Express |",
+      " Node.js |",
+      " Sequelize |",
+      " MySQL |",
+      " GraphQL |",
+      " apollo"
+    ],
+    "githubLink": "https://github.com/Sahib-11/Soil"
+  },
+  {
+    "title": "MCBA Internet Banking System",
+    "images": [
+      "assets/projects/mcba/userMain.png",
+      "assets/projects/mcba/accountDetails.png",
+      "assets/projects/mcba/accountTransfer.png",
+      "assets/projects/mcba/statement.png",
+      "assets/projects/mcba/profile.png",
+      "assets/projects/mcba/biller.png",
+      "assets/projects/mcba/billerSet.png",
+      "assets/projects/mcba/adminCustomers.png",
+      "assets/projects/mcba/adminCustomers.png"
+    ],
+    "description": [
+      "Developed a full-stack internet banking web application using ASP.NET Core MVC with a three-tier architecture.",
+      "Implemented core banking features including deposits, withdrawals, transfers, transaction history, and scheduled bill payments.",
+      "Designed and integrated a relational database using Entity Framework Core with code-first migrations and validation rules.",
+      "Built secure authentication, session management, and background processing for automated scheduled payments."
+    ],
+    "tech": [
+      "C# |",
+      " ASP.NET Core MVC |",
+      " Entity Framework Core |",
+      " SQL Server |",
+      " Bootstrap |",
+      " JavaScript"
+    ],
+    "githubLink": "https://github.com/rmit-wdt-fs-2023/s3842316-s3843246-a2"
+  },
+  {
+    "title": "Scrabble (C++ Game)",
+    "images": [
+      "assets/projects/scrabble/inital.png",
+      "assets/projects/scrabble/game1.png",
+      "assets/projects/scrabble/game2.png",
+      "assets/projects/scrabble/game3.png",
+      "assets/projects/scrabble/save.png",
+      "assets/projects/scrabble/load.png"
+    ],
+    "description": [
+      "This project is a multiplayer text-based Scrabble game built in C++14,",
+      "focusing on implementing core game logic and data structures.",
+      "It supports features such as tile placement, scoring, turn-based gameplay,",
+      "saving and loading game states, and input validation, using vectors for the board",
+      "and custom linked lists for managing player hands and tile bags."
+    ],
+    "tech": [
+      "C++ |",
+      " Data Structures |",
+      " Linked Lists |",
+      " File Handling |",
+      " OOP"
+    ],
+    "githubLink": "https://github.com/Sahib-11/Scrabble_cpp"
+  }
+]

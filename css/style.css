@@ -1,0 +1,185 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Fixes navbar covering section titles */
+section {
+  scroll-margin-top: 56px;
+}
+
+/* Nav buttons */
+.nav-btn {
+  color: inherit;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  transition: 0.2s ease;
+}
+
+.nav-btn:hover {
+  background: rgba(50, 113, 222, 0.333);
+}
+
+.hero-label {
+  color: var(--bs-primary);
+  letter-spacing: 4px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.hero-title {
+  font-size: clamp(2.6rem, 6vw, 5rem);
+  font-weight: 800;
+  line-height: 1.05;
+  margin-bottom: 20px;
+}
+
+.hero-title span {
+  color: var(--bs-primary);
+}
+
+.hero-subtitle {
+  font-size: clamp(1.25rem, 2vw, 1.55rem);
+  color: var(--bs-body-color);
+  max-width: 720px;
+  margin-bottom: 16px;
+}
+
+.hero-description {
+  color: var(--bs-secondary-color);
+  max-width: 680px;
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+
+.hero-card {
+  background: var(--bs-body-bg);
+  border: 1px solid var(--bs-border-color);
+  border-radius: 28px;
+  overflow: hidden;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12);
+}
+
+.hero-card-top {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--bs-border-color);
+  display: flex;
+  gap: 8px;
+}
+
+.hero-dot {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: var(--bs-primary);
+  opacity: 0.75;
+}
+
+.hero-card-body {
+  padding: 34px;
+}
+
+.hero-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.hero-stack span {
+  background: rgba(13, 110, 253, 0.12);
+  color: var(--bs-primary);
+  padding: 7px 13px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+}
+
+.project-img {
+  height: 220px;
+  width: 100%;
+  object-fit: contain;
+  background: #111827;
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.icon-btn {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid var(--bs-border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--bs-body-color);
+  background: var(--bs-body-bg);
+  font-size: 1.2rem;
+  transition: 0.2s ease;
+  text-decoration: none;
+}
+
+.icon-btn:hover {
+  background: var(--bs-primary);
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+.about-panel {
+  background: var(--bs-body-bg);
+  border: 1px solid var(--bs-border-color);
+  border-radius: 28px;
+  padding: clamp(28px, 5vw, 60px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12);
+}
+
+.about-label {
+  color: var(--bs-primary);
+  letter-spacing: 4px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.about-heading {
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  font-weight: 700;
+  line-height: 1.15;
+  max-width: 900px;
+}
+
+.about-text {
+  color: var(--bs-secondary-color);
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+.about-side {
+  background: rgba(128, 128, 128, 0.08);
+  border-radius: 22px;
+  padding: 24px;
+  color: var(--bs-secondary-color);
+}
+
+.about-side i {
+  color: var(--bs-primary);
+}
+
+.about-line {
+  border-left: 4px solid var(--bs-primary);
+  padding-left: 14px;
+  color: var(--bs-body-color);
+  font-weight: 500;
+}
+
+.contact-card {
+  background: var(--bs-body-bg);
+  border: 1px solid rgba(128, 128, 128, 0.25);
+  border-radius: 24px;
+  padding: 50px 30px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+.contact-info {
+  color: #9ca3af;
+  font-size: 0.95rem;
+}
